@@ -9,7 +9,7 @@ export async function POST(req: Request) {
     const { name, email, phone, message } = body;
 
     await resend.emails.send({
-      from: "Clave CRM <contacto@sistema-clave.com>",
+      from: "Clave CRM <contact@romerolocksley.com>",
       to: ["contact@romerolocksley.com"],
       subject: "Nueva Solicitud de Demo — Clave",
       html: `
